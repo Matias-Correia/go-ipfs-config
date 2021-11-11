@@ -9,4 +9,7 @@ type InternalBitswap struct {
 	EngineBlockstoreWorkerCount OptionalInteger
 	EngineTaskWorkerCount       OptionalInteger
 	MaxOutstandingBytesPerPeer  OptionalInteger
+	ProviderSelectionMode		OptionalInteger
+	ServerAddress				string
+	SessionAvgLatencyThreshold	int
 }
